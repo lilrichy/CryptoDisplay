@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8ebd8572-dd62-4ebd-b103-d2688547fcd8}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ArduinoJson.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\compatibility.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Configuration.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\DynamicJsonBuffer.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonArray.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonArrayImpl.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonArraySubscript.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonBuffer.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonBufferBase.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonBufferImpl.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonObject.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonObjectImpl.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonObjectSubscript.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonPair.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariant.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariantBase.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariantCasts.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariantComparisons.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariantImpl.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariantOr.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\JsonVariantSubscripts.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\RawJson.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StaticJsonBuffer.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\version.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\Encoding.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonBufferAllocated.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonFloat.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonInteger.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonVariantAs.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonVariantContent.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonVariantDefault.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\JsonVariantType.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\List.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\ListConstIterator.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\ListIterator.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\ListNode.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\NonCopyable.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\ReferenceType.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Data\ValueSaver.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Deserialization\Comments.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Deserialization\JsonParser.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Deserialization\JsonParserImpl.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Deserialization\StringWriter.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\alias_cast.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\attributes.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\ctype.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\isFloat.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\isInteger.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\math.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\parseFloat.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Polyfills\parseInteger.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\DummyPrint.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\DynamicStringBuilder.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\FloatParts.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\IndentedPrint.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\JsonPrintable.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\JsonSerializer.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\JsonSerializerImpl.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\JsonWriter.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\Prettyfier.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\StaticStringBuilder.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\Serialization\StreamPrintAdapter.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StringTraits\ArduinoStream.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StringTraits\CharPointer.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StringTraits\FlashString.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StringTraits\StdStream.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StringTraits\StdString.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\StringTraits\StringTraits.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\EnableIf.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\FloatTraits.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsArray.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsBaseOf.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsChar.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsConst.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsFloatingPoint.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsIntegral.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsSame.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsSignedIntegral.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsUnsignedIntegral.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\IsVariant.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\RemoveConst.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ArduinoJson\TypeTraits\RemoveReference.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)CMakeLists.txt" />
+<Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)appveyor.yml" />
+<None Include="$(MSBuildThisFileDirectory)banner.svg" />
+<None Include="$(MSBuildThisFileDirectory)CHANGELOG.md" />
+<None Include="$(MSBuildThisFileDirectory)CONTRIBUTING.md" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE.md" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+<None Include="$(MSBuildThisFileDirectory)SUPPORT.md" />
+  </ItemGroup>
+</Project>
