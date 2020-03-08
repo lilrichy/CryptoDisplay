@@ -19,6 +19,12 @@ Adafruit_SSD1306 display(OLED_RESET);
 // Total Number of coins must match amount of coins in configureCoins below.
 #define TOTAL_COINS 4
 
+struct Coin {
+	String url;
+	String ticker;
+};
+
+struct Coin cryptoCoins[TOTAL_COINS];
 //Change this to add, edit, or remove coins to the display remember to update TOTAL_COINS above.
 void configureCoins() {
 
@@ -46,12 +52,6 @@ const char* password = "Monster1984";
 const char* coinbaseHost = "api.pro.coinbase.com";
 const char* coinbaseFingerprint = "9C B0 72 05 A4 F9 D7 4E 5A A4 06 5E DD 1F 1C 27 5D C2 F1 48";
 
-struct Coin {
-	String url;
-	String ticker;
-};
-
-struct Coin cryptoCoins[TOTAL_COINS];
 
 void connectToWIFI() {
 
